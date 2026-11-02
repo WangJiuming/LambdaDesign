@@ -12,12 +12,11 @@
 * [Quick start](#quick-start)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgement](#acknowledgement)
 
 <!-- ABOUT THE PROJECT -->
 ## About this repository
 
-This codebase contains the inference code and example data associated with the paper titled "Ionizable lipid design for RNA delivery with a generative model". LambdaDesign is a conditional variational framework for ionizable lipid design in which activity estimation and molecular generation share a single latent representation, so that every candidate is scored before it is decoded into a molecule [1].
+This codebase contains the inference code and example data associated with the paper titled "Ionizable lipid design for RNA delivery with a generative model". LambdaDesign is a conditional variational framework for ionizable lipid design in which activity estimation and molecular generation share a single latent representation, so that every candidate is scored before it is decoded into a molecule.
 
 ## Quick start
 
@@ -127,7 +126,6 @@ To check the installation, users can run the test suite.
 ```bash
 python -m pytest
 ```
-All 24 tests should pass. The tests build small temporary fixtures and do not require the production weights.
 
 ## License
 
@@ -136,13 +134,3 @@ The codes for this repository are licensed under the MIT License (see `LICENSE`)
 ## Contact
 
 For questions about this repository or the paper, please contact jmwang@link.cuhk.edu.hk, or open an issue in this repository.
-
-## Acknowledgement
-
-We thank the authors of the following works, on which this repository depends.
-
-[1] This work. Ionizable lipid design for RNA delivery with a generative model.
-
-[2] Wang, Y., Wang, J., Cao, Z. & Barati Farimani, A. Molecular contrastive learning of representations via graph neural networks. *Nature Machine Intelligence* **4**, 279-287 (2022). <a href='https://doi.org/10.1038/s42256-022-00447-x'>full text available</a>.
-
-[3] Krenn, M., Häse, F., Nigam, A., Friederich, P. & Aspuru-Guzik, A. Self-referencing embedded strings (SELFIES): A 100% robust molecular string representation. *Machine Learning: Science and Technology* **1**, 045024 (2020). <a href='https://doi.org/10.1088/2632-2153/aba947'>full text available</a>.

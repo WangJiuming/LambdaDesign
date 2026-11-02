@@ -1,5 +1,4 @@
-# Preserve file bytes exactly as committed, on every platform.
-# PACKAGE_MANIFEST.sha256 records the SHA-256 of each file, so any end-of-line
-# conversion by git would make `sha256sum -c PACKAGE_MANIFEST.sha256` fail
-# after a clone.
+# Preserve file bytes exactly as committed, on every platform, so that data
+# files such as examples/molecules.csv are not altered by end-of-line
+# conversion on checkout.
 * -text
