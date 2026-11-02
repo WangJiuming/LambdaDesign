@@ -1,0 +1,6 @@
+include README.md requirements.txt environment.yml THIRD_PARTY_NOTICES.md LICENSE
+recursive-include configs *.json
+recursive-include examples *.csv
+recursive-include tests *.py
+recursive-include src/lambdadesign/licenses *.txt
+global-exclude *.pt *.pth *.ckpt *.pyc .DS_Store

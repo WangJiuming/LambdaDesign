@@ -1,0 +1,17 @@
+{
+  "num_molecules": 1000,
+  "max_latents": 100000,
+  "latent_batch_size": 128,
+  "decode_batch_size": 16,
+  "samples_per_latent": 5,
+  "max_tokens": 256,
+  "temperature": 0.8,
+  "top_k": 10,
+  "activity_threshold": "p75",
+  "filter_tails": true,
+  "tail_min_carbons": 10,
+  "tail_max_carbons": 18,
+  "required_tail_components": 2,
+  "require_tertiary_amine": true,
+  "seed": 42
+}

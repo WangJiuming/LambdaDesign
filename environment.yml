@@ -1,0 +1,14 @@
+name: lambdadesign
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # Validated CPU runtime. On an NVIDIA GPU, replace torch with a CUDA
+      # build after creating the environment; see "Quick start" in README.md.
+      - torch==2.6.0
+      - numpy==1.26.4
+      - rdkit==2024.9.6
+      - selfies==2.1.1
+      - pytest>=8,<9

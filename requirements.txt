@@ -1,0 +1,5 @@
+# Validated CPU environment: Python 3.12, macOS arm64.
+torch==2.6.0
+numpy==1.26.4
+rdkit==2024.9.6
+selfies==2.1.1
