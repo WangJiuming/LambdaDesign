@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About this repository
 
-This codebase contains the inference code and example data associated with the paper titled "Ionizable lipid design for RNA delivery with a generative model". LambdaDesign is a conditional variational framework for ionizable lipid design in which activity estimation and molecular generation share a single latent representation, so that every candidate is scored before it is decoded into a molecule.
+This codebase contains the inference code and example data associated with the paper titled "Ionizable lipid design for RNA delivery with a generative model". LambdaDesign is a conditional variational framework for ionizable lipid design in which activity estimation and molecular generation share a single latent representation, so that every candidate is scored and optimized before it is decoded into a molecule.
 
 ## Quick start
 
